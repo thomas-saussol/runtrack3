@@ -6,18 +6,10 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
- 
-    <style>
-    .mystyle {
-    display:none;
-    }
-    </style>
 
-<button onclick="showhide()">Magie!</button>
 
-    <article id="myDIV">
-  L'important n'est pas la chute, mais l'atterrissage.
-</article>
+<button id="button" onclick="showhide()">Magie!</button>
+
 
 
 <p>Apparition / Disparition</p>
