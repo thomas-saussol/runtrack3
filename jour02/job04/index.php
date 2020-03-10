@@ -6,7 +6,7 @@
   </head>
   <body>
 
-    <h3>keylog</h3>
+    <h3>KeyLOG</h3>
        <textarea id="keylogger"></textarea>
 
 
