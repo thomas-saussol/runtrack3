@@ -1,3 +1,8 @@
-jQuery(document).ready(function(){
-console.log("jQuery est prêt !");
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#al").hide();
+  });
+  $("#button").click(function(){
+    $("p").show();
+  });
 });
