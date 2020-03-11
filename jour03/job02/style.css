@@ -1,0 +1,15 @@
+body{
+  background-image:url('ciel.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#button{
+height: 29px;
+width: 356px;
+border-radius: 14px;
+color: red;
+background-color: black;
+
+}
