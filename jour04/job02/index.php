@@ -7,7 +7,7 @@
 </head>
 <body>
 
-   <input id="button" onclick="JsonValueKey(creation1, 'city')" type="button" value="cliquez"/>
+   <input id="button" onclick="jsonValueKey()" type="button" value="Au bout de 6H! aaaaaargh"/>
 </body>
 
 </html>

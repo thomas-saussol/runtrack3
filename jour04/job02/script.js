@@ -1,10 +1,16 @@
- JsonValueKey = '{"name":"La Plateforme_", "address":"8 rue d\' hozier", "city":"Marseille", "nb_staff":"11", "creation":"2019"}';
+function jsonValueKey(json,key) {
+console.log('coucou');
 
- const creation1 = JSON.parse(creation);
+var jsonValueKey = '{"name":"La Plateforme_","address":"8 rue d/hozier","city":"Marseille","nb_staff":"11","creation":"2019"}';
+var key = "name";
 
- while (creation<i=5, i++) {
-   console.log(creation1.city);
+var personne = JSON.parse(jsonValueKey);
 
- }
-  function JsonValueKey(creation1,city){
-  }
+for ($i = 1; $i <= 5; $i++)
+{
+console.log(personne[key]);
+}
+
+return personne[key];
+
+}
